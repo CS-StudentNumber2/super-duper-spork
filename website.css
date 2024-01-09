@@ -32,6 +32,10 @@ a {
     margin-top: 5px;
 }
 
+a:hover{
+    background-color: grey;
+}
+
 h1{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 40px;
@@ -40,7 +44,6 @@ h1{
     border-color: navy;
     border-left: 0px;
     border-right: 0px;
-
 }
 
 p {
