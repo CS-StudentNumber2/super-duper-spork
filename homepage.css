@@ -6,12 +6,11 @@ body {
 }
 
 .menu {
-    background-color: lavenderblush;
+    background-color: white;
     display:block;
     text-align: center;
     width: 80%;
     margin: auto;
-    border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 50px;
     padding-left: 5%;
@@ -22,7 +21,29 @@ body {
     transform: translate(-50%, -50%)
 }
 
-a {
+.sections {
+    display: inline;
+    margin-right: 50px;
+    color: black
+}
+
+h2{
+    text-align: left;
+    border-style: solid;
+    border-color: navy;
+    border-left: 0px;
+    border-right: 0px;
+}
+.navbar{
+    display:block;
+    background-color: white;
+    margin: -8px;
+    padding: 1%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.button {
     background-color: rgb(217, 217, 217);
     color: black;
     font-size: 25px;
@@ -33,7 +54,7 @@ a {
     margin-top: 5px;
 }
 
-a:hover{
+.button:hover{
     background-color: grey;
 }
 
@@ -45,6 +66,7 @@ h1{
     border-color: navy;
     border-left: 0px;
     border-right: 0px;
+
 }
 
 p {
