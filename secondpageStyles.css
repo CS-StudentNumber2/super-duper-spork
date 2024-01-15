@@ -71,6 +71,10 @@ button {
     display: block;
   }
 
+.dropdown:hover + .dropdown-content{
+    display:block
+}
+
 input[type="checkbox"] {
     opacity: 0;
     position: absolute;
