@@ -71,7 +71,6 @@ button {
     display: block;
   }
 
-  
 input[type="checkbox"] {
     opacity: 0;
     position: absolute;
@@ -81,9 +80,9 @@ input[type="checkbox"]:focus {
     box-shadow: 0 0 20px rgb(83, 83, 83);
 }
 
-input[type="checkbox"]:checked + label > .arrow {
-    transform: rotate(180deg);
-  }
+input[type="checkbox"]:hover {
+    box-shadow: 0 0 20px rgb(83, 83, 83);
+}
 
 .topics {
     font-family: 'Roboto Condensed', sans-serif;
